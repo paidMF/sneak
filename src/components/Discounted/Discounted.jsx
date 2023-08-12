@@ -3,7 +3,7 @@ import { workExp } from "../../utils/data";
 import css from "./Work.module.scss";
 import {motion} from 'framer-motion'
 import { draw, fadeIn, slideIn, staggerChildren, textVariant2, zoomIn } from "../../utils/motion";
-const Work = () => {
+const Discounted = () => {
   return (
     <motion.section 
     variants={staggerChildren}
@@ -11,11 +11,11 @@ const Work = () => {
     whileInView="show"
     viewport={{ once: false, amount: 0.25 }}
     className={`paddings ${css.wrapper}`}>
-    <a className="anchor" id="work"></a>
+    <a className="anchor" id="discounted"></a>
 
       <div className={`innerWidth flexCenter ${css.container}`}>
         {/* heading */}
-        <span className="primaryText yPaddings">My Work Experience</span>
+        <span className="primaryText yPaddings">Discounted Prices</span>
 
         <div className={`flexCenter ${css.experiences}`}>
           {workExp.map((exp, i) => {
@@ -47,4 +47,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Discounted;

@@ -3,19 +3,40 @@ import { CiMobile1 } from "react-icons/ci";
 import { MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
-    name: "Website Design",
+    name: "Adidas",
     projects: 76,
-    icon: HiOutlineDesktopComputer,
+    icon: MdWorkspacesOutline,
     bg: "#286F6C",
   },
   {
-    name: "Mobile App Design",
+    name: "Yeezy",
     projects: 63,
-    icon: CiMobile1,
+    icon: MdWorkspacesOutline,
     bg: "#EEC048",
   },
   {
-    name: "Brand Identity",
+    name: "New Balance",
+    projects: 47,
+    icon: MdWorkspacesOutline,
+    bg: "#F26440",
+  },
+];
+
+export const projectExperience2 = [
+  {
+    name: "Nike",
+    projects: 76,
+    icon: MdWorkspacesOutline,
+    bg: "#286F6C",
+  },
+  {
+    name: "Jordans",
+    projects: 63,
+    icon: MdWorkspacesOutline,
+    bg: "#EEC048",
+  },
+  {
+    name: "Reebok",
     projects: 47,
     icon: MdWorkspacesOutline,
     bg: "#F26440",
@@ -53,68 +74,55 @@ export const workExp = [
 
 export const comments = [
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Adidas",
+    price: "34,000",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "hgjfajkfhla klan nfbsn nsgaklblk nasdfnv ueiwiu aouhijkg, hkjleqknqwe fd asdf fghb sdf nbf xdfghds werghgfd.",
+    img: "./adidas.png",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Sn",
+    price: "46,700",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
+    "hgjfajkfhla klan nfbsn nsgaklblk nasdfnv ueiwiu aouhijkg, hkjleqknqwe fd asdf fghb sdf nbf xdfghds werghgfd.",
+    img: "./Sn.png",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Nike",
+    price: "71,270",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+    "hgjfajkfhla klan nfbsn nsgaklblk nasdfnv ueiwiu aouhijkg, hkjleqknqwe fd asdf fghb sdf nbf xdfghds werghgfd.",
+    img: "./Nike.png",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Ps",
+    price: "35,000",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
+    "hgjfajkfhla klan nfbsn nsgaklblk nasdfnv ueiwiu aouhijkg, hkjleqknqwe fd asdf fghb sdf nbf xdfghds werghgfd.",
+    img: "./ps.png",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "S2",
+    price: "28,600",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+    "hgjfajkfhla klan nfbsn nsgaklblk nasdfnv ueiwiu aouhijkg, hkjleqknqwe fd asdf fghb sdf nbf xdfghds werghgfd.",
+    img: "./S2.png",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Sneaky",
+    price: "46,070",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
+    "hgjfajkfhla klan nfbsn nsgaklblk nasdfnv ueiwiu aouhijkg, hkjleqknqwe fd asdf fghb sdf nbf xdfghds werghgfd.",
+    img: "./sneakers.png",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Ad",
+    price: "63,500",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+    "hgjfajkfhla klan nfbsn nsgaklblk nasdfnv ueiwiu aouhijkg, hkjleqknqwe fd asdf fghb sdf nbf xdfghds werghgfd.",
+    img: "./ad.png",
   },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
+  
 ];
 
 export const sliderSettings = {
@@ -126,6 +134,7 @@ export const sliderSettings = {
   initialSlide: 0,
   touchMove: true,
   useCSS: true,
+  arrow: true,
 
   responsive: [
     {

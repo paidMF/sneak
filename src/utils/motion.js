@@ -1,19 +1,31 @@
 export const headerVariants = {
+
+  //  when the header is hidden
   hidden: {
+    // mean 0 visibility(no visibility)
     opacity: 0,
+    // on -50 pixel on the y axis (above the screen)
     y: -50,
     transition: {
+      // it transition will be of the spring type. (in a strainght line transition)
       type: "spring",
+      // hard effect
       stiffness: 300,
+      // bouncing effect
       damping: 140,
     },
   },
   show: {
+    //1 means visible
     opacity: 1,
+    // on 0 pixel on the y axis (to the top of the screen)
     y: 0,
     transition: {
+      // it transition will be of the spring type. (in a strainght line transition)
       type: "spring",
+      // hard effect
       stiffness: 80,
+      // after the page is in view, it will take 1 second to show
       delay: 1,
     },
   },
