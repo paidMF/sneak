@@ -15,7 +15,7 @@ const Website = () => {
     <Collections/>
     <Newrelease/>
     <Hotsales/> 
-    {/* <Discounted/>
+    
       
       
     <Footer/>

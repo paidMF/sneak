@@ -21,12 +21,7 @@ const Hero = () => {
             Sneakers
           </motion.span>
 
-          {/* the span should fade in (from right) to the left with the animation type of "tween" and a delay of 0.4 sec, and animation duration of 1 sec */}
-          {/* <motion.span className="secondaryText"variants={fadeIn("left", "tween", 0.4, 1)}>
-            I design beautiful simple
-            <br />
-            things, And I love what i do{" "}
-          </motion.span> */}
+          
         </div>
 
         <motion.div
@@ -37,18 +32,10 @@ const Hero = () => {
           <motion.img variants={slideIn("up", "tween", 0.5, 1.3)} src="./ad.png" alt="" />
         </motion.div>
 
-        {/* <a className={css.email} href="mailto:zainkeepscode@gmail.com">
-          zainkeepscode@gmail.com
-        </a> */}
+        
 
         <div className={css.lowerElements}>
-          {/* <motion.div variants={fadeIn("right", "tween", 0.3, 1)} className={css.experience}>
-            <div className="primaryText">10</div>
-            <div className="secondaryText">
-              <div>Years</div>
-              <div>Experience</div>
-            </div>
-          </motion.div> */}
+          
 
           <motion.div variants={fadeIn("left", "tween", 0.5, 1)} className= {css.certificate}>
             
